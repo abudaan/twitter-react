@@ -13,20 +13,16 @@ class Controls extends React.Component{
   render(){
     if(this.props.firstPage){
       return(
-        <div>
-          <div className="arrow-right" onClick={Action.nextPage}>
-            <div className="w-icon-slider-right w-hidden-tiny slider-tfeed-arrow right">N</div>
-          </div>
+        <div className="arrow-right" onClick={Action.nextPage}>
+          <div className="icon">&#61524;</div>
         </div>
       );
     }
 
     if(this.props.lastPage){
       return(
-        <div>
-          <div className="arrow-left" onClick={Action.prevPage}>
-            <div className="w-icon-slider-left w-hidden-tiny slider-tfeed-arrow left">P</div>
-          </div>
+        <div className="arrow-left" onClick={Action.prevPage}>
+          <div className="icon">&#61523;</div>
         </div>
       );
     }
@@ -34,10 +30,10 @@ class Controls extends React.Component{
     return(
       <div>
         <div className="arrow-left" onClick={Action.prevPage}>
-          <div className="w-icon-slider-left w-hidden-tiny slider-tfeed-arrow left">P</div>
+          <div className="icon">&#61523;</div>
         </div>
         <div className="arrow-right" onClick={Action.nextPage}>
-          <div className="w-icon-slider-right w-hidden-tiny slider-tfeed-arrow right">N</div>
+          <div className="icon">&#61524;</div>
         </div>
       </div>
     );

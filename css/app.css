@@ -45,6 +45,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/fontawesome-webfont.eot?v=4.5.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 * {
   box-sizing: border-box; }
 
@@ -55,11 +61,14 @@ html, body {
   width: 100%; }
   .ta-slider .mask {
     background-color: #eee;
-    height: 320px; }
+    height: 320px;
+    overflow: hidden;
+    position: relative; }
     .ta-slider .mask .slider {
       display: flex;
       justify-content: space-around;
-      padding: 0 40px; }
+      padding: 0 40px;
+      height: 100%; }
       .ta-slider .mask .slider .slide {
         background-color: #fff;
         flex: 0 1 auto;
@@ -68,13 +77,33 @@ html, body {
           margin-right: 10px; }
         .ta-slider .mask .slider .slide .tweet {
           padding: 10px; }
-  .ta-slider .arrow-left {
+  .ta-slider .arrow-right, .ta-slider .arrow-left {
+    font-family: FontAwesome;
     position: absolute;
     text-align: center;
-    left: 0; }
+    width: 25px;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: black;
+    transition: color 0.3s ease; }
+    .ta-slider .arrow-right:hover, .ta-slider .arrow-left:hover {
+      color: red;
+      transition: color 0.3s ease; }
+    .ta-slider .arrow-right .icon, .ta-slider .arrow-left .icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      width: 1em;
+      height: 1em; }
   .ta-slider .arrow-right {
-    position: absolute;
-    text-align: center;
-    right: 0; }
+    left: auto; }
+  .ta-slider .arrow-left {
+    right: auto; }
 
 /*# sourceMappingURL=app.css.map */
