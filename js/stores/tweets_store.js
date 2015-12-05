@@ -13,7 +13,7 @@ class TweetsStore extends EventEmitter {
     this.nextPage = 0;
     this.currentPage = 0;
     this.pages = [{tweets: []}];
-    this.lastPage = false; // not in use yet, will be a key in the loaded json data
+    this.lastPage = 2; // not in use yet, will be a key in the loaded json data
 
     AppDispatcher.register((action) => {
       this.handle(action);
@@ -36,7 +36,8 @@ class TweetsStore extends EventEmitter {
     //console.log('getTweets', this.tweets);
     return {
       tweets: this.pages[this.currentPage].tweets,
-      page: this.currentPage
+      firstPage: this.currentPage === 0,
+      lastPage: this.currentPage === this.lastPage
     };
   }
 

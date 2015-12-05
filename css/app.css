@@ -1,72 +1,80 @@
-body {
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  font-family: monospace;
-  font-size: 12px;
-  background-color: #eee;
-}
-#controls{
-  /*position: absolute;*/
-  background-color: #fff;
-  padding: 10px;
-  padding-bottom: 5px;
-}
-#message{
-  margin: 10px 15px;
-  font-size: 12px;
-  font-family: monospace;
-  float: left;
-}
-#parsetime{
-  margin: 10px 15px;
-  font-size: 12px;
-  font-family: monospace;
-  float: right;
-}
-#fileSelect{
-  padding: 4px;
-}
-#input{
-  width: 100%;
-  text-align: center;
-}
-.hidden{
-  display: none;
-}
-#stats{
-  position: absolute;
-  top:0;
-  right: 0;
-}
-input[type='button']{
-  font-family: monospace;
-  font-size: 12px;
-}
-#checkbox{
-  margin-top: 10px;
-  height: 20px;
-}
-#checkbox label{
-  width: 100px;
-}
-#checkbox div{
-  float: left;
-  margin-right: 20px;
-}
-#sliders{
-  margin-top: 10px;
-}
-.slider{
-  margin-bottom: 4px;
-}
-#numbermodels{
-  width: calc(100% - 400px);
-}
-input[type='range']{
-  user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  -o-user-select: none;
-}
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%; }
+
+.ta-slider {
+  width: 100%; }
+  .ta-slider .mask {
+    background-color: #eee;
+    height: 320px; }
+    .ta-slider .mask .slider {
+      display: flex;
+      justify-content: space-around;
+      padding: 0 40px; }
+      .ta-slider .mask .slider .slide {
+        background-color: #fff;
+        flex: 0 1 auto;
+        width: calc(100%/3); }
+        .ta-slider .mask .slider .slide:last-child {
+          margin-right: 10px; }
+        .ta-slider .mask .slider .slide .tweet {
+          padding: 10px; }
+  .ta-slider .arrow-left {
+    position: absolute;
+    text-align: center;
+    left: 0; }
+  .ta-slider .arrow-right {
+    position: absolute;
+    text-align: center;
+    right: 0; }
+
+/*# sourceMappingURL=app.css.map */

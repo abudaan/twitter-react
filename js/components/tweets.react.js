@@ -1,10 +1,5 @@
 import React from 'react';
 
-let tweetStyle = {
-  marginTop: '15px',
-  marginBottom: '15px'
-};
-
 class Tweets extends React.Component{
 
   static displayName = 'Tweets';
@@ -18,10 +13,13 @@ class Tweets extends React.Component{
     let result = [];
     let tweets = this.props.tweets;
     tweets.forEach(function(tweet){
-      result.push(<div key={tweet.id} style={tweetStyle}>{tweet.text}</div>);
+      result.push(
+        <div className="slide" key={tweet.id}>
+          <p className="tweet">{tweet.text}</p>
+        </div>);
     });
     return(
-      <div>
+      <div className="slider">
         {result}
       </div>
     );

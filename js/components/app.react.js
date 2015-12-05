@@ -34,9 +34,11 @@ class App extends React.Component{
 
   render(){
     return(
-      <div>
-        <Tweets tweets={this.state.tweets} />
-        <Controls page={this.state.page} />
+      <div className="ta-slider">
+        <div className="mask">
+          <Tweets tweets={this.state.tweets} />
+          <Controls firstPage={this.state.firstPage} lastPage={this.state.lastPage} />
+        </div>
       </div>
     );
   }
