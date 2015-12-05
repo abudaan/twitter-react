@@ -1,0 +1,24 @@
+{
+  "name": "abudaan/twitter-app",
+  "type": "library",
+  "description": "javascript frontend with React for Twitter",
+  "keywords": ["twitter", "api", "oauth", "demo", "rest", "social"],
+  "license": "MIT",
+  "homepage": "https://github.com/abudaan/twitter-app",
+  "authors": [
+    {
+      "name": "abudaan",
+      "email": "abudaan@gmail.com",
+      "homepage": "http://abumarkub.net",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/abudaan/twitter-app",
+    "issues": "https://github.com/abudaan/twitter-app/issues"
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "abraham/twitteroauth": "0.6.2"
+  }
+}

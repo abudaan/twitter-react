@@ -1,6 +1,8 @@
 <?php
 
-include_once('twitteroauth/twitteroauth.php');
+require_once realpath(__DIR__ . '/..') . '/vendor/autoload.php';
+
+use Abraham\TwitterOAuth\TwitterOAuth;
 
 function get_tweets(){
 
@@ -29,16 +31,6 @@ function get_tweets(){
       'text' => $tweet->text
     );
     $tweets[] = $t;
-  }
-
-
-  if(isset($tweets->errors)){
-    $my_tweets->statuses = array(
-      new stdObject(
-        array('text' => $my_tweets->errors[0]->code . ' - '. $my_tweets->errors[0]->message)
-      )
-    );
-    $tweets = array('error' => 'Something went wrong');
   }
 
   return $tweets;
