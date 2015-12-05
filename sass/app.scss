@@ -7,6 +7,13 @@
 
 html, body{
   width: 100%;
+  font-family: sans;
+}
+
+#app{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .ta-slider{
@@ -44,6 +51,63 @@ html, body{
   %arrow{
     font-family: FontAwesome;
     position: absolute;
+    width: 25px;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    //background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    color: black;
+    transition: color 0.3s ease;
+    &:hover{
+      color: red;
+      transition: color 0.3s ease;
+    }
+
+    .icon{
+      flex: 0 1 auto;
+    }
+  }
+
+  .arrow-right{
+    @extend %arrow;
+    left: auto;
+  }
+  .arrow-left{
+    @extend %arrow;
+    right: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .ta-slider{
+    .mask{
+      .slider{
+        flex-direction: column;
+        justify-content: space-around;
+        .slide{
+          width: 100%;
+          margin-right: 0px;
+          margin-bottom: 10px;
+
+          &:last-child{
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+  %arrow{
+    font-family: FontAwesome;
+    position: absolute;
     text-align: center;
     width: 25px;
     cursor: pointer;
@@ -71,13 +135,4 @@ html, body{
       height: 1em;
     }
   }
-
-  .arrow-right{
-    @extend %arrow;
-    left: auto;
-  }
-  .arrow-left{
-    @extend %arrow;
-    right: auto;
-  }
-}
+*/
