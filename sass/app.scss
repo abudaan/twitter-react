@@ -68,10 +68,6 @@ html, body{
       color: red;
       transition: color 0.3s ease;
     }
-
-    .icon{
-      flex: 0 1 auto;
-    }
   }
 
   .arrow-right{
@@ -103,36 +99,3 @@ html, body{
     }
   }
 }
-
-/*
-  %arrow{
-    font-family: FontAwesome;
-    position: absolute;
-    text-align: center;
-    width: 25px;
-    cursor: pointer;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    //background-color: yellow;
-
-    color: black;
-    transition: color 0.3s ease;
-    &:hover{
-      color: red;
-      transition: color 0.3s ease;
-    }
-
-    .icon{
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      margin: auto;
-      width: 1em;
-      height: 1em;
-    }
-  }
-*/

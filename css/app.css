@@ -100,8 +100,6 @@ html, body {
     .ta-slider .arrow-right:hover, .ta-slider .arrow-left:hover {
       color: red;
       transition: color 0.3s ease; }
-    .ta-slider .arrow-right .icon, .ta-slider .arrow-left .icon {
-      flex: 0 1 auto; }
   .ta-slider .arrow-right {
     left: auto; }
   .ta-slider .arrow-left {
@@ -117,37 +115,5 @@ html, body {
       margin-bottom: 10px; }
       .ta-slider .mask .slider .slide:last-child {
         margin-bottom: 0px; } }
-/*
-  %arrow{
-    font-family: FontAwesome;
-    position: absolute;
-    text-align: center;
-    width: 25px;
-    cursor: pointer;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    //background-color: yellow;
-
-    color: black;
-    transition: color 0.3s ease;
-    &:hover{
-      color: red;
-      transition: color 0.3s ease;
-    }
-
-    .icon{
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      margin: auto;
-      width: 1em;
-      height: 1em;
-    }
-  }
-*/
 
 /*# sourceMappingURL=app.css.map */
