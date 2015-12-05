@@ -1,0 +1,1407 @@
+[{
+    "created_at": "Wed Nov 25 08:06:30 +0000 2015",
+    "id": 669426922917638144,
+    "id_str": "669426922917638144",
+    "text": "RT @MignonDelicia: https:\/\/t.co\/YhTZrf4tw7 @DST_Fontys",
+    "source": "<a href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\">Twitter for Android<\/a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 3891739587,
+        "id_str": "3891739587",
+        "name": "DutchSchoolofThought",
+        "screen_name": "DST_Fontys",
+        "location": "Eindhoven, Noord-Brabant",
+        "description": "International Institute For Thought Leadership",
+        "url": "http:\/\/t.co\/mPFhNoy5WV",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http:\/\/t.co\/mPFhNoy5WV",
+                    "expanded_url": "http:\/\/www.dutchschoolofthought.com",
+                    "display_url": "dutchschoolofthought.com",
+                    "indices": [0, 22]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 21,
+        "friends_count": 7,
+        "listed_count": 0,
+        "created_at": "Wed Oct 07 17:08:39 +0000 2015",
+        "favourites_count": 19,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 26,
+        "lang": "nl",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/654049587473346560\/1n1nX9fU_normal.jpg",
+        "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/654049587473346560\/1n1nX9fU_normal.jpg",
+        "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/3891739587\/1444772608",
+        "profile_link_color": "FA743E",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Wed Nov 25 07:29:27 +0000 2015",
+        "id": 669417600749846528,
+        "id_str": "669417600749846528",
+        "text": "https:\/\/t.co\/YhTZrf4tw7 @DST_Fontys",
+        "source": "<a href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\">Twitter for iPhone<\/a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 154063581,
+            "id_str": "154063581",
+            "name": "Mignon van Halderen",
+            "screen_name": "MignonDelicia",
+            "location": "The Hague",
+            "description": "Lector (Associate Professor) Thought Leadership | Fontys University of Applied Sciences | owner http:\/\/t.co\/dcw8LfMyvw | Mum of 2 | Tweets English + Dutch",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/dcw8LfMyvw",
+                        "expanded_url": "http:\/\/www.leading-thoughts.com",
+                        "display_url": "leading-thoughts.com",
+                        "indices": [96, 118]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 562,
+            "friends_count": 483,
+            "listed_count": 27,
+            "created_at": "Thu Jun 10 07:58:29 +0000 2010",
+            "favourites_count": 113,
+            "utc_offset": 7200,
+            "time_zone": "Athens",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 957,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme17\/bg.gif",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme17\/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1734144440\/Mignon_IWill_forWeb_cropped_normal.JPG",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1734144440\/Mignon_IWill_forWeb_cropped_normal.JPG",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/154063581\/1424937305",
+            "profile_link_color": "009DDF",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 2,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "DST_Fontys",
+                "name": "DutchSchoolofThought",
+                "id": 3891739587,
+                "id_str": "3891739587",
+                "indices": [24, 35]
+            }],
+            "urls": [{
+                "url": "https:\/\/t.co\/YhTZrf4tw7",
+                "expanded_url": "https:\/\/hbr.org\/2015\/11\/what-kind-of-thinker-are-you?utm_source=twitter&utm_medium=social&utm_campaign=harvardbiz",
+                "display_url": "hbr.org\/2015\/11\/what-k\u2026",
+                "indices": [0, 23]
+            }]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "und"
+    },
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "MignonDelicia",
+            "name": "Mignon van Halderen",
+            "id": 154063581,
+            "id_str": "154063581",
+            "indices": [3, 17]
+        }, {
+            "screen_name": "DST_Fontys",
+            "name": "DutchSchoolofThought",
+            "id": 3891739587,
+            "id_str": "3891739587",
+            "indices": [43, 54]
+        }],
+        "urls": [{
+            "url": "https:\/\/t.co\/YhTZrf4tw7",
+            "expanded_url": "https:\/\/hbr.org\/2015\/11\/what-kind-of-thinker-are-you?utm_source=twitter&utm_medium=social&utm_campaign=harvardbiz",
+            "display_url": "hbr.org\/2015\/11\/what-k\u2026",
+            "indices": [19, 42]
+        }]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "und"
+}, {
+    "created_at": "Thu Nov 19 10:59:07 +0000 2015",
+    "id": 667296038345007105,
+    "id_str": "667296038345007105",
+    "text": "RT @MignonDelicia: Mind-boggling. How future imagination becomes a reality soon. https:\/\/t.co\/wKiVttxHWV  @M_Steinbuch @dwdd @DST_Fontys #p\u2026",
+    "source": "<a href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\">Twitter for Android<\/a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 3891739587,
+        "id_str": "3891739587",
+        "name": "DutchSchoolofThought",
+        "screen_name": "DST_Fontys",
+        "location": "Eindhoven, Noord-Brabant",
+        "description": "International Institute For Thought Leadership",
+        "url": "http:\/\/t.co\/mPFhNoy5WV",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http:\/\/t.co\/mPFhNoy5WV",
+                    "expanded_url": "http:\/\/www.dutchschoolofthought.com",
+                    "display_url": "dutchschoolofthought.com",
+                    "indices": [0, 22]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 21,
+        "friends_count": 7,
+        "listed_count": 0,
+        "created_at": "Wed Oct 07 17:08:39 +0000 2015",
+        "favourites_count": 19,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 26,
+        "lang": "nl",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/654049587473346560\/1n1nX9fU_normal.jpg",
+        "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/654049587473346560\/1n1nX9fU_normal.jpg",
+        "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/3891739587\/1444772608",
+        "profile_link_color": "FA743E",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Thu Nov 19 10:57:12 +0000 2015",
+        "id": 667295552367783936,
+        "id_str": "667295552367783936",
+        "text": "Mind-boggling. How future imagination becomes a reality soon. https:\/\/t.co\/wKiVttxHWV  @M_Steinbuch @dwdd @DST_Fontys #paradigm #shifting",
+        "source": "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 154063581,
+            "id_str": "154063581",
+            "name": "Mignon van Halderen",
+            "screen_name": "MignonDelicia",
+            "location": "The Hague",
+            "description": "Lector (Associate Professor) Thought Leadership | Fontys University of Applied Sciences | owner http:\/\/t.co\/dcw8LfMyvw | Mum of 2 | Tweets English + Dutch",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/dcw8LfMyvw",
+                        "expanded_url": "http:\/\/www.leading-thoughts.com",
+                        "display_url": "leading-thoughts.com",
+                        "indices": [96, 118]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 562,
+            "friends_count": 483,
+            "listed_count": 27,
+            "created_at": "Thu Jun 10 07:58:29 +0000 2010",
+            "favourites_count": 113,
+            "utc_offset": 7200,
+            "time_zone": "Athens",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 957,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme17\/bg.gif",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme17\/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1734144440\/Mignon_IWill_forWeb_cropped_normal.JPG",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1734144440\/Mignon_IWill_forWeb_cropped_normal.JPG",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/154063581\/1424937305",
+            "profile_link_color": "009DDF",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 2,
+        "entities": {
+            "hashtags": [{
+                "text": "paradigm",
+                "indices": [118, 127]
+            }, {
+                "text": "shifting",
+                "indices": [128, 137]
+            }],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "M_Steinbuch",
+                "name": "Maarten Steinbuch",
+                "id": 280088248,
+                "id_str": "280088248",
+                "indices": [87, 99]
+            }, {
+                "screen_name": "dwdd",
+                "name": "DeWereldDraaitDoor",
+                "id": 19182978,
+                "id_str": "19182978",
+                "indices": [100, 105]
+            }, {
+                "screen_name": "DST_Fontys",
+                "name": "DutchSchoolofThought",
+                "id": 3891739587,
+                "id_str": "3891739587",
+                "indices": [106, 117]
+            }],
+            "urls": [{
+                "url": "https:\/\/t.co\/wKiVttxHWV",
+                "expanded_url": "http:\/\/dewerelddraaitdoor.vara.nl\/media\/347996",
+                "display_url": "dewerelddraaitdoor.vara.nl\/media\/347996",
+                "indices": [62, 85]
+            }]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [{
+            "text": "paradigm",
+            "indices": [137, 140]
+        }, {
+            "text": "shifting",
+            "indices": [139, 140]
+        }],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "MignonDelicia",
+            "name": "Mignon van Halderen",
+            "id": 154063581,
+            "id_str": "154063581",
+            "indices": [3, 17]
+        }, {
+            "screen_name": "M_Steinbuch",
+            "name": "Maarten Steinbuch",
+            "id": 280088248,
+            "id_str": "280088248",
+            "indices": [106, 118]
+        }, {
+            "screen_name": "dwdd",
+            "name": "DeWereldDraaitDoor",
+            "id": 19182978,
+            "id_str": "19182978",
+            "indices": [119, 124]
+        }, {
+            "screen_name": "DST_Fontys",
+            "name": "DutchSchoolofThought",
+            "id": 3891739587,
+            "id_str": "3891739587",
+            "indices": [125, 136]
+        }],
+        "urls": [{
+            "url": "https:\/\/t.co\/wKiVttxHWV",
+            "expanded_url": "http:\/\/dewerelddraaitdoor.vara.nl\/media\/347996",
+            "display_url": "dewerelddraaitdoor.vara.nl\/media\/347996",
+            "indices": [81, 104]
+        }]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}, {
+    "created_at": "Tue Nov 17 11:35:40 +0000 2015",
+    "id": 666580457987944448,
+    "id_str": "666580457987944448",
+    "text": "RT @d_akkers: Openbare lecture @JanRotmans \u2018How game changers deal with radical innovation\u2019 op 11 december @ImpactHubAMS https:\/\/t.co\/suQzY\u2026",
+    "source": "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 3891739587,
+        "id_str": "3891739587",
+        "name": "DutchSchoolofThought",
+        "screen_name": "DST_Fontys",
+        "location": "Eindhoven, Noord-Brabant",
+        "description": "International Institute For Thought Leadership",
+        "url": "http:\/\/t.co\/mPFhNoy5WV",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http:\/\/t.co\/mPFhNoy5WV",
+                    "expanded_url": "http:\/\/www.dutchschoolofthought.com",
+                    "display_url": "dutchschoolofthought.com",
+                    "indices": [0, 22]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 21,
+        "friends_count": 7,
+        "listed_count": 0,
+        "created_at": "Wed Oct 07 17:08:39 +0000 2015",
+        "favourites_count": 19,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 26,
+        "lang": "nl",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/654049587473346560\/1n1nX9fU_normal.jpg",
+        "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/654049587473346560\/1n1nX9fU_normal.jpg",
+        "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/3891739587\/1444772608",
+        "profile_link_color": "FA743E",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Mon Nov 16 21:12:00 +0000 2015",
+        "id": 666363110673006592,
+        "id_str": "666363110673006592",
+        "text": "Openbare lecture @JanRotmans \u2018How game changers deal with radical innovation\u2019 op 11 december @ImpactHubAMS https:\/\/t.co\/suQzYmVCei \u2026 #free",
+        "source": "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 352966136,
+            "id_str": "352966136",
+            "name": "Dakakkers",
+            "screen_name": "d_akkers",
+            "location": "Rotterdam",
+            "description": "dakakkers | #stadslandbouw | rooftopfarm | urbanfarming | rooftopbees | dakbijen | @Milieucentrum | ZUS | @Luchtsingel | @Bindergroen |",
+            "url": "http:\/\/t.co\/4ltNWky5QU",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/4ltNWky5QU",
+                        "expanded_url": "http:\/\/www.dakakkers.nl",
+                        "display_url": "dakakkers.nl",
+                        "indices": [0, 22]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 2733,
+            "friends_count": 2911,
+            "listed_count": 86,
+            "created_at": "Thu Aug 11 10:25:31 +0000 2011",
+            "favourites_count": 3,
+            "utc_offset": -10800,
+            "time_zone": "Greenland",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 3433,
+            "lang": "nl",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/2208979340\/dakakker_1_normal.jpg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/2208979340\/dakakker_1_normal.jpg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/352966136\/1394465208",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": {
+            "id": "ea0a61fa0c646676",
+            "url": "https:\/\/api.twitter.com\/1.1\/geo\/id\/ea0a61fa0c646676.json",
+            "place_type": "city",
+            "name": "Rotterdam",
+            "full_name": "Rotterdam, South Holland",
+            "country_code": "NL",
+            "country": "Nederland",
+            "contained_within": [],
+            "bounding_box": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [3.9418364, 51.8421131],
+                        [4.6013785, 51.8421131],
+                        [4.6013785, 52.0068016],
+                        [3.9418364, 52.0068016]
+                    ]
+                ]
+            },
+            "attributes": {}
+        },
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 8,
+        "favorite_count": 6,
+        "entities": {
+            "hashtags": [{
+                "text": "free",
+                "indices": [133, 138]
+            }],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "janrotmans",
+                "name": "Jan Rotmans",
+                "id": 251248123,
+                "id_str": "251248123",
+                "indices": [17, 28]
+            }, {
+                "screen_name": "ImpactHubAMS",
+                "name": "Impact Hub Amsterdam",
+                "id": 122345375,
+                "id_str": "122345375",
+                "indices": [93, 106]
+            }],
+            "urls": [{
+                "url": "https:\/\/t.co\/suQzYmVCei",
+                "expanded_url": "http:\/\/transitionacademy.nl\/nl\/open-lecture-on-game-changers",
+                "display_url": "transitionacademy.nl\/nl\/open-lectur\u2026",
+                "indices": [107, 130]
+            }]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 8,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [{
+            "text": "free",
+            "indices": [139, 140]
+        }],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "d_akkers",
+            "name": "Dakakkers",
+            "id": 352966136,
+            "id_str": "352966136",
+            "indices": [3, 12]
+        }, {
+            "screen_name": "janrotmans",
+            "name": "Jan Rotmans",
+            "id": 251248123,
+            "id_str": "251248123",
+            "indices": [31, 42]
+        }, {
+            "screen_name": "ImpactHubAMS",
+            "name": "Impact Hub Amsterdam",
+            "id": 122345375,
+            "id_str": "122345375",
+            "indices": [107, 120]
+        }],
+        "urls": [{
+            "url": "https:\/\/t.co\/suQzYmVCei",
+            "expanded_url": "http:\/\/transitionacademy.nl\/nl\/open-lecture-on-game-changers",
+            "display_url": "transitionacademy.nl\/nl\/open-lectur\u2026",
+            "indices": [121, 140]
+        }]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}, {
+    "created_at": "Tue Nov 17 11:34:37 +0000 2015",
+    "id": 666580193763581952,
+    "id_str": "666580193763581952",
+    "text": "RT @thoughtstrategy: Is the term thought leadership overused? If yes please tweet me your recommended name\/term @thoughtstrategy",
+    "source": "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 3891739587,
+        "id_str": "3891739587",
+        "name": "DutchSchoolofThought",
+        "screen_name": "DST_Fontys",
+        "location": "Eindhoven, Noord-Brabant",
+        "description": "International Institute For Thought Leadership",
+        "url": "http:\/\/t.co\/mPFhNoy5WV",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http:\/\/t.co\/mPFhNoy5WV",
+                    "expanded_url": "http:\/\/www.dutchschoolofthought.com",
+                    "display_url": "dutchschoolofthought.com",
+                    "indices": [0, 22]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 21,
+        "friends_count": 7,
+        "listed_count": 0,
+        "created_at": "Wed Oct 07 17:08:39 +0000 2015",
+        "favourites_count": 19,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 26,
+        "lang": "nl",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/654049587473346560\/1n1nX9fU_normal.jpg",
+        "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/654049587473346560\/1n1nX9fU_normal.jpg",
+        "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/3891739587\/1444772608",
+        "profile_link_color": "FA743E",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Fri Nov 13 00:14:27 +0000 2015",
+        "id": 664959472985489408,
+        "id_str": "664959472985489408",
+        "text": "Is the term thought leadership overused? If yes please tweet me your recommended name\/term @thoughtstrategy",
+        "source": "<a href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\">Twitter for iPhone<\/a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 41306341,
+            "id_str": "41306341",
+            "name": "Craig Badings",
+            "screen_name": "thoughtstrategy",
+            "location": "Sydney",
+            "description": "I turn brands and individuals into #thoughtleaders using a bespoke, tried and tested methodology. #PR #publicrelations #contentmarketing #thoughtleadership",
+            "url": "http:\/\/t.co\/MKakmgriRl",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/MKakmgriRl",
+                        "expanded_url": "http:\/\/www.leadingthought.us.com",
+                        "display_url": "leadingthought.us.com",
+                        "indices": [0, 22]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 7277,
+            "friends_count": 4617,
+            "listed_count": 213,
+            "created_at": "Wed May 20 05:53:50 +0000 2009",
+            "favourites_count": 263,
+            "utc_offset": -36000,
+            "time_zone": "Hawaii",
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 2706,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "9AE4E8",
+            "profile_background_image_url": "http:\/\/pbs.twimg.com\/profile_background_images\/33824824\/blog_and_twitter_background.jpg",
+            "profile_background_image_url_https": "https:\/\/pbs.twimg.com\/profile_background_images\/33824824\/blog_and_twitter_background.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/422608787279605761\/X4VhAaTb_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/422608787279605761\/X4VhAaTb_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/41306341\/1398305274",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "BDDCAD",
+            "profile_sidebar_fill_color": "DDFFCC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "thoughtstrategy",
+                "name": "Craig Badings",
+                "id": 41306341,
+                "id_str": "41306341",
+                "indices": [91, 107]
+            }],
+            "urls": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "thoughtstrategy",
+            "name": "Craig Badings",
+            "id": 41306341,
+            "id_str": "41306341",
+            "indices": [3, 19]
+        }, {
+            "screen_name": "thoughtstrategy",
+            "name": "Craig Badings",
+            "id": 41306341,
+            "id_str": "41306341",
+            "indices": [112, 128]
+        }],
+        "urls": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}, {
+    "created_at": "Tue Nov 17 11:34:29 +0000 2015",
+    "id": 666580161249288192,
+    "id_str": "666580161249288192",
+    "text": "RT @MignonDelicia: Again a @Fontys School of Communication student staging in #Paradiso Amsterdam and  #DWDD:  https:\/\/t.co\/hY5KPPVpLB @jer\u2026",
+    "source": "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 3891739587,
+        "id_str": "3891739587",
+        "name": "DutchSchoolofThought",
+        "screen_name": "DST_Fontys",
+        "location": "Eindhoven, Noord-Brabant",
+        "description": "International Institute For Thought Leadership",
+        "url": "http:\/\/t.co\/mPFhNoy5WV",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http:\/\/t.co\/mPFhNoy5WV",
+                    "expanded_url": "http:\/\/www.dutchschoolofthought.com",
+                    "display_url": "dutchschoolofthought.com",
+                    "indices": [0, 22]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 21,
+        "friends_count": 7,
+        "listed_count": 0,
+        "created_at": "Wed Oct 07 17:08:39 +0000 2015",
+        "favourites_count": 19,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 26,
+        "lang": "nl",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/654049587473346560\/1n1nX9fU_normal.jpg",
+        "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/654049587473346560\/1n1nX9fU_normal.jpg",
+        "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/3891739587\/1444772608",
+        "profile_link_color": "FA743E",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Fri Nov 13 07:49:13 +0000 2015",
+        "id": 665073918642921472,
+        "id_str": "665073918642921472",
+        "text": "Again a @Fontys School of Communication student staging in #Paradiso Amsterdam and  #DWDD:  https:\/\/t.co\/hY5KPPVpLB @jeroenbeentjes",
+        "source": "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 154063581,
+            "id_str": "154063581",
+            "name": "Mignon van Halderen",
+            "screen_name": "MignonDelicia",
+            "location": "The Hague",
+            "description": "Lector (Associate Professor) Thought Leadership | Fontys University of Applied Sciences | owner http:\/\/t.co\/dcw8LfMyvw | Mum of 2 | Tweets English + Dutch",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/dcw8LfMyvw",
+                        "expanded_url": "http:\/\/www.leading-thoughts.com",
+                        "display_url": "leading-thoughts.com",
+                        "indices": [96, 118]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 562,
+            "friends_count": 483,
+            "listed_count": 27,
+            "created_at": "Thu Jun 10 07:58:29 +0000 2010",
+            "favourites_count": 113,
+            "utc_offset": 7200,
+            "time_zone": "Athens",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 957,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme17\/bg.gif",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme17\/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1734144440\/Mignon_IWill_forWeb_cropped_normal.JPG",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1734144440\/Mignon_IWill_forWeb_cropped_normal.JPG",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/154063581\/1424937305",
+            "profile_link_color": "009DDF",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 2,
+        "entities": {
+            "hashtags": [{
+                "text": "Paradiso",
+                "indices": [59, 68]
+            }, {
+                "text": "DWDD",
+                "indices": [84, 89]
+            }],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "Fontys",
+                "name": "Fontys Hogescholen",
+                "id": 59467668,
+                "id_str": "59467668",
+                "indices": [8, 15]
+            }, {
+                "screen_name": "jeroenbeentjes",
+                "name": "Jeroen Beentjes",
+                "id": 22018135,
+                "id_str": "22018135",
+                "indices": [116, 131]
+            }],
+            "urls": [{
+                "url": "https:\/\/t.co\/hY5KPPVpLB",
+                "expanded_url": "http:\/\/dewerelddraaitdoor.vara.nl\/media\/349304",
+                "display_url": "dewerelddraaitdoor.vara.nl\/media\/349304",
+                "indices": [92, 115]
+            }]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [{
+            "text": "Paradiso",
+            "indices": [78, 87]
+        }, {
+            "text": "DWDD",
+            "indices": [103, 108]
+        }],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "MignonDelicia",
+            "name": "Mignon van Halderen",
+            "id": 154063581,
+            "id_str": "154063581",
+            "indices": [3, 17]
+        }, {
+            "screen_name": "Fontys",
+            "name": "Fontys Hogescholen",
+            "id": 59467668,
+            "id_str": "59467668",
+            "indices": [27, 34]
+        }, {
+            "screen_name": "jeroenbeentjes",
+            "name": "Jeroen Beentjes",
+            "id": 22018135,
+            "id_str": "22018135",
+            "indices": [135, 140]
+        }],
+        "urls": [{
+            "url": "https:\/\/t.co\/hY5KPPVpLB",
+            "expanded_url": "http:\/\/dewerelddraaitdoor.vara.nl\/media\/349304",
+            "display_url": "dewerelddraaitdoor.vara.nl\/media\/349304",
+            "indices": [111, 134]
+        }]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}, {
+    "created_at": "Tue Nov 17 11:33:48 +0000 2015",
+    "id": 666579988301377536,
+    "id_str": "666579988301377536",
+    "text": "RT @camillavandenbo: Thought leadership. Ability to disrupt other's habitual approaches and shift their thinking. @tnvora @DrLizAlexander h\u2026",
+    "source": "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 3891739587,
+        "id_str": "3891739587",
+        "name": "DutchSchoolofThought",
+        "screen_name": "DST_Fontys",
+        "location": "Eindhoven, Noord-Brabant",
+        "description": "International Institute For Thought Leadership",
+        "url": "http:\/\/t.co\/mPFhNoy5WV",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "http:\/\/t.co\/mPFhNoy5WV",
+                    "expanded_url": "http:\/\/www.dutchschoolofthought.com",
+                    "display_url": "dutchschoolofthought.com",
+                    "indices": [0, 22]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 21,
+        "friends_count": 7,
+        "listed_count": 0,
+        "created_at": "Wed Oct 07 17:08:39 +0000 2015",
+        "favourites_count": 19,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 26,
+        "lang": "nl",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/654049587473346560\/1n1nX9fU_normal.jpg",
+        "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/654049587473346560\/1n1nX9fU_normal.jpg",
+        "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/3891739587\/1444772608",
+        "profile_link_color": "FA743E",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Sun Nov 15 11:31:30 +0000 2015",
+        "id": 665854635354255360,
+        "id_str": "665854635354255360",
+        "text": "Thought leadership. Ability to disrupt other's habitual approaches and shift their thinking. @tnvora @DrLizAlexander https:\/\/t.co\/62rjcorYLe",
+        "source": "<a href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\">Twitter for iPhone<\/a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 154174471,
+            "id_str": "154174471",
+            "name": "Camilla van den Boom",
+            "screen_name": "camillavandenbo",
+            "location": "The Netherlands",
+            "description": "Business Development Director @sturrrm University Lecturer Business Model Design Strategic Management @TIASnews @TUeindhoven",
+            "url": "https:\/\/t.co\/68hcf0TwGi",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https:\/\/t.co\/68hcf0TwGi",
+                        "expanded_url": "http:\/\/about.me\/camillavandenboom",
+                        "display_url": "about.me\/camillavandenb\u2026",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1252,
+            "friends_count": 510,
+            "listed_count": 66,
+            "created_at": "Thu Jun 10 15:32:20 +0000 2010",
+            "favourites_count": 1,
+            "utc_offset": 3600,
+            "time_zone": "Amsterdam",
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 1330,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/431909042223476736\/W_4wqjXH_normal.png",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/431909042223476736\/W_4wqjXH_normal.png",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/154174471\/1382564755",
+            "profile_link_color": "ABB8C2",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 7,
+        "favorite_count": 11,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "tnvora",
+                "name": "Tanmay Vora",
+                "id": 14431986,
+                "id_str": "14431986",
+                "indices": [93, 100]
+            }, {
+                "screen_name": "DrLizAlexander",
+                "name": "Liz Alexander",
+                "id": 96012788,
+                "id_str": "96012788",
+                "indices": [101, 116]
+            }],
+            "urls": [],
+            "media": [{
+                "id": 665854627435454464,
+                "id_str": "665854627435454464",
+                "indices": [117, 140],
+                "media_url": "http:\/\/pbs.twimg.com\/media\/CT2XQXxXIAARkYp.jpg",
+                "media_url_https": "https:\/\/pbs.twimg.com\/media\/CT2XQXxXIAARkYp.jpg",
+                "url": "https:\/\/t.co\/62rjcorYLe",
+                "display_url": "pic.twitter.com\/62rjcorYLe",
+                "expanded_url": "http:\/\/twitter.com\/camillavandenbo\/status\/665854635354255360\/photo\/1",
+                "type": "photo",
+                "sizes": {
+                    "small": {
+                        "w": 340,
+                        "h": 469,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "medium": {
+                        "w": 600,
+                        "h": 827,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 650,
+                        "h": 897,
+                        "resize": "fit"
+                    }
+                }
+            }]
+        },
+        "extended_entities": {
+            "media": [{
+                "id": 665854627435454464,
+                "id_str": "665854627435454464",
+                "indices": [117, 140],
+                "media_url": "http:\/\/pbs.twimg.com\/media\/CT2XQXxXIAARkYp.jpg",
+                "media_url_https": "https:\/\/pbs.twimg.com\/media\/CT2XQXxXIAARkYp.jpg",
+                "url": "https:\/\/t.co\/62rjcorYLe",
+                "display_url": "pic.twitter.com\/62rjcorYLe",
+                "expanded_url": "http:\/\/twitter.com\/camillavandenbo\/status\/665854635354255360\/photo\/1",
+                "type": "photo",
+                "sizes": {
+                    "small": {
+                        "w": 340,
+                        "h": 469,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "medium": {
+                        "w": 600,
+                        "h": 827,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 650,
+                        "h": 897,
+                        "resize": "fit"
+                    }
+                }
+            }]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 7,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "camillavandenbo",
+            "name": "Camilla van den Boom",
+            "id": 154174471,
+            "id_str": "154174471",
+            "indices": [3, 19]
+        }, {
+            "screen_name": "tnvora",
+            "name": "Tanmay Vora",
+            "id": 14431986,
+            "id_str": "14431986",
+            "indices": [114, 121]
+        }, {
+            "screen_name": "DrLizAlexander",
+            "name": "Liz Alexander",
+            "id": 96012788,
+            "id_str": "96012788",
+            "indices": [122, 137]
+        }],
+        "urls": [],
+        "media": [{
+            "id": 665854627435454464,
+            "id_str": "665854627435454464",
+            "indices": [139, 140],
+            "media_url": "http:\/\/pbs.twimg.com\/media\/CT2XQXxXIAARkYp.jpg",
+            "media_url_https": "https:\/\/pbs.twimg.com\/media\/CT2XQXxXIAARkYp.jpg",
+            "url": "https:\/\/t.co\/62rjcorYLe",
+            "display_url": "pic.twitter.com\/62rjcorYLe",
+            "expanded_url": "http:\/\/twitter.com\/camillavandenbo\/status\/665854635354255360\/photo\/1",
+            "type": "photo",
+            "sizes": {
+                "small": {
+                    "w": 340,
+                    "h": 469,
+                    "resize": "fit"
+                },
+                "thumb": {
+                    "w": 150,
+                    "h": 150,
+                    "resize": "crop"
+                },
+                "medium": {
+                    "w": 600,
+                    "h": 827,
+                    "resize": "fit"
+                },
+                "large": {
+                    "w": 650,
+                    "h": 897,
+                    "resize": "fit"
+                }
+            },
+            "source_status_id": 665854635354255360,
+            "source_status_id_str": "665854635354255360",
+            "source_user_id": 154174471,
+            "source_user_id_str": "154174471"
+        }]
+    },
+    "extended_entities": {
+        "media": [{
+            "id": 665854627435454464,
+            "id_str": "665854627435454464",
+            "indices": [139, 140],
+            "media_url": "http:\/\/pbs.twimg.com\/media\/CT2XQXxXIAARkYp.jpg",
+            "media_url_https": "https:\/\/pbs.twimg.com\/media\/CT2XQXxXIAARkYp.jpg",
+            "url": "https:\/\/t.co\/62rjcorYLe",
+            "display_url": "pic.twitter.com\/62rjcorYLe",
+            "expanded_url": "http:\/\/twitter.com\/camillavandenbo\/status\/665854635354255360\/photo\/1",
+            "type": "photo",
+            "sizes": {
+                "small": {
+                    "w": 340,
+                    "h": 469,
+                    "resize": "fit"
+                },
+                "thumb": {
+                    "w": 150,
+                    "h": 150,
+                    "resize": "crop"
+                },
+                "medium": {
+                    "w": 600,
+                    "h": 827,
+                    "resize": "fit"
+                },
+                "large": {
+                    "w": 650,
+                    "h": 897,
+                    "resize": "fit"
+                }
+            },
+            "source_status_id": 665854635354255360,
+            "source_status_id_str": "665854635354255360",
+            "source_user_id": 154174471,
+            "source_user_id_str": "154174471"
+        }]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}]
