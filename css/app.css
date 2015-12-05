@@ -66,15 +66,15 @@ html, body {
     position: relative; }
     .ta-slider .mask .slider {
       display: flex;
-      justify-content: space-around;
-      padding: 0 40px;
+      padding: 20px 40px;
       height: 100%; }
       .ta-slider .mask .slider .slide {
         background-color: #fff;
         flex: 0 1 auto;
-        width: calc(100%/3); }
+        width: calc(100%/3);
+        margin-right: 10px; }
         .ta-slider .mask .slider .slide:last-child {
-          margin-right: 10px; }
+          margin-right: 0px; }
         .ta-slider .mask .slider .slide .tweet {
           padding: 10px; }
   .ta-slider .arrow-right, .ta-slider .arrow-left {
