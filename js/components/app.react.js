@@ -29,7 +29,7 @@ class App extends React.Component{
   onChange(){
     let state = TweetsStore.getData();
     this.setState(state);
-    console.log(this.state);
+    //console.log(this.state);
   }
 
   render(){
