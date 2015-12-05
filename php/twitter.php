@@ -13,11 +13,12 @@ function get_tweets(){
 
   $tweets = array();
   $tweets_per_page = 3;
+  $twitter_user = 'ubuntu';
   $save_path = '/home/abudaan/workspace/twitter-app/data';
   $connection = new TwitterOAuth($twitter_customer_key, $twitter_customer_secret, $twitter_access_token, $twitter_access_token_secret);
 
   $params = array(
-    'screen_name' => 'ubuntu',
+    'screen_name' => $twitter_user,
     'count' => 25,
     'include_rts' => true,
     'trim_user' => true
@@ -33,7 +34,7 @@ function get_tweets(){
   foreach($raw_tweets as $tweet){
     $t = array(
       'id' => $tweet->id,
-      'text' => parseTweet($tweet->text)
+      'text' => parse_tweet($tweet->text)
     );
     $tweets[] = $t;
 
@@ -63,12 +64,30 @@ function get_tweets(){
 }
 
 
-function parseTweet($tweet){
+function parse_tweet($tweet){
+  $pattern = '#(@|\#)([a-zA-Z0-9_]+)#';
+  preg_match_all($pattern, $tweet, $matches, PREG_SET_ORDER);
+
+  if($matches){
+    foreach($matches as $match){
+      if($match[1] == '@'){
+        $user = $match[2];
+        $link = "<a href=\"https://twitter.com/$user\">@$user</a>";
+        $tweet = str_replace("@$user", $link, $tweet);
+      }else if($match[1] == '#'){
+        $hash = $match[2];
+        $link = "<a href=\"https://twitter.com/hashtag/$hash?src=hash\">#$hash</a>";
+        $tweet = str_replace("#$hash", $link, $tweet);
+      }
+    }
+  }
+
   return $tweet;
 }
 
-?>
+  //echo json_encode(get_tweets());
+  //echo parse_tweet('RT @MignonDelicia: Here is how our @Fontys School of #Communication students give shape to #thoughtleadership: https://t.co/mMqqMxauOr @DST\u2026');
+  get_tweets();
+  echo 'done';
 
-<?php
-  echo json_encode(get_tweets());
 ?>

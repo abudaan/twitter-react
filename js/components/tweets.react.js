@@ -13,10 +13,14 @@ class Tweets extends React.Component{
     let result = [];
     let tweets = this.props.tweets;
     tweets.forEach(function(tweet){
+      function createHTML(){
+        return {__html: tweet.text};
+      }
       result.push(
         <div className="slide" key={tweet.id}>
-          <p className="tweet">{tweet.text}</p>
-        </div>);
+          <p className="tweet" dangerouslySetInnerHTML={createHTML()} />
+        </div>
+      );
     });
     return(
       <div className="slider">
