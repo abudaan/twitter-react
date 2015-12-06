@@ -1,6 +1,6 @@
 
 export default {
 
-  TWEETS_URL: '../data'
+  TWEETS_URL: 'data'
 
 };
