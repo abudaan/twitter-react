@@ -65,25 +65,58 @@ html, body {
   max-width: 1200px; }
 
 .ta-slider {
-  width: 100%; }
+  width: 100%;
+  animation: fadein 1s ease; }
   .ta-slider .mask {
     background-color: #eee;
-    height: 320px;
     overflow: hidden;
     position: relative; }
     .ta-slider .mask .slider {
       display: flex;
       padding: 20px 40px;
-      height: 100%; }
+      min-height: 320px; }
       .ta-slider .mask .slider .slide {
         background-color: #fff;
         flex: 0 1 auto;
         width: calc(100%/3);
-        margin-right: 10px; }
+        margin-right: 10px;
+        overflow: hidden; }
         .ta-slider .mask .slider .slide:last-child {
           margin-right: 0px; }
-        .ta-slider .mask .slider .slide .tweet {
-          padding: 10px; }
+        .ta-slider .mask .slider .slide .flexbox {
+          padding: 10px;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-around;
+          flex-direction: column; }
+          .ta-slider .mask .slider .slide .flexbox p {
+            padding-bottom: 10px; }
+          .ta-slider .mask .slider .slide .flexbox img {
+            max-height: 150px; }
+          .ta-slider .mask .slider .slide .flexbox a {
+            text-decoration: none;
+            color: black;
+            transition: color 0.1s ease; }
+            .ta-slider .mask .slider .slide .flexbox a:hover {
+              color: red;
+              transition: color 0.1s ease; }
+            .ta-slider .mask .slider .slide .flexbox a .user {
+              display: flex;
+              align-items: flex-start;
+              justify-content: space-around; }
+              .ta-slider .mask .slider .slide .flexbox a .user span {
+                padding-left: 10px;
+                align-self: center; }
+          .ta-slider .mask .slider .slide .flexbox .tweet a {
+            text-decoration: underline;
+            color: grey;
+            transition: color 0.1s ease; }
+            .ta-slider .mask .slider .slide .flexbox .tweet a:hover {
+              transition: color 0.1s ease;
+              color: red; }
+          .ta-slider .mask .slider .slide .flexbox .media {
+            width: 100%;
+            text-align: center; }
   .ta-slider .arrow-right, .ta-slider .arrow-left {
     font-family: FontAwesome;
     position: absolute;
@@ -116,5 +149,10 @@ html, body {
       margin-bottom: 10px; }
       .ta-slider .mask .slider .slide:last-child {
         margin-bottom: 0px; } }
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 /*# sourceMappingURL=app.css.map */

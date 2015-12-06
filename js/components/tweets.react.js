@@ -16,11 +16,29 @@ class Tweets extends React.Component{
       function createHTML(){
         return {__html: tweet.text};
       }
-      result.push(
-        <div className="slide" key={tweet.id}>
-          <p className="tweet" dangerouslySetInnerHTML={createHTML()} />
-        </div>
-      );
+      let user_url = `https://twitter.com/${tweet.user_name}`;
+      let user_name = `@${tweet.user_name}`;
+      if(tweet.media_url){
+        //console.log(tweet.media_url);
+        result.push(
+          <div className="slide" key={tweet.id}>
+            <div className="flexbox">
+              <a href={user_url} target="blank"><div className="user"><img src={tweet.user_img} /><span>{user_name}</span></div></a>
+              <p className="tweet" dangerouslySetInnerHTML={createHTML()} />
+              <div className="media"><img src={tweet.media_url} /></div>
+            </div>
+          </div>
+        );
+      }else{
+        result.push(
+          <div className="slide" key={tweet.id}>
+            <div className="flexbox">
+              <a href={user_url} target="blank"><div className="user"><img src={tweet.user_img} /><span>{user_name}</span></div></a>
+              <p className="tweet" dangerouslySetInnerHTML={createHTML()} />
+            </div>
+          </div>
+        );
+      }
     });
     return(
       <div className="slider">
