@@ -108,7 +108,7 @@ class Tweets{
 
   function parse_tweet($tweet){
 
-    $id = $tweet->id;
+    $id = $tweet->id_str;
     $text = $tweet->text;
     //$user_id = $tweet->user->id;
     $user_name = $tweet->user->screen_name;
@@ -116,6 +116,8 @@ class Tweets{
     $tco_url = '0';
     $media_url = '0';
     $has_media = false;
+    $retweet = substr($text, 0, 2) === 'RT';
+    $tweet_url = "https://twitter.com/$user_name/status/$id";
 
     if(count($tweet->entities->media) > 0){
       if($tweet->entities->media[0]->type == 'photo'){
@@ -125,9 +127,9 @@ class Tweets{
       }
     }
 
-    if(substr($text, 0, 2) === 'RT'){
-      $text = $tweet->retweeted_status->text;
+    if($retweet){
       //$user_id = $tweet->retweeted_status->user->id;
+      $text = substr($text, 2);
       $user_name = $tweet->retweeted_status->user->screen_name;
       $user_img = $tweet->retweeted_status->user->profile_image_url;
       if(count($tweet->retweeted_status->entities->media) > 0){
@@ -148,9 +150,10 @@ class Tweets{
       foreach($matches as $match){
         $url = $match[1] . $match[2] . $match[3] . $match[4];
         if($url === $tco_url){
+          //$link = "<a class=\"media\" target=\"blank\" href=\"$tweet_url\"><img src=\"$url\"></img></a>";
           $link = "";
         }else{
-          $link = "<a href=\"$url\">$url</a>";
+          $link = "<a class=\"url\" target=\"blank\" href=\"$url\">$url</a>";
         }
         $text = str_replace($url, $link, $text);
       }
@@ -158,18 +161,18 @@ class Tweets{
 
 
     // convert user name and hash to hrefs
-    $pattern = '#(@|\#)([a-zA-Z0-9_]+)#';
+    $pattern = '#(\s)(@|\#)([a-zA-Z0-9_]+)#';
     preg_match_all($pattern, $text, $matches, PREG_SET_ORDER);
 
     if($matches){
       foreach($matches as $match){
-        if($match[1] == '@'){
-          $user = $match[2];
-          $link = "<a href=\"https://twitter.com/$user\">@$user</a>";
+        if($match[2] == '@'){
+          $user = $match[3];
+          $link = "<a class=\"user\" target=\"blank\" href=\"https://twitter.com/$user\">@$user</a>";
           $text = str_replace("@$user", $link, $text);
-        }else if($match[1] == '#'){
-          $hash = $match[2];
-          $link = "<a href=\"https://twitter.com/hashtag/$hash?src=hash\">#$hash</a>";
+        }else if($match[2] == '#'){
+          $hash = $match[3];
+          $link = "<a class=\"hash\" target=\"blank\" href=\"https://twitter.com/hashtag/$hash?src=hash\">#$hash</a>";
           $text = str_replace("#$hash", $link, $text);
         }
       }
@@ -184,6 +187,9 @@ class Tweets{
 
     if($has_media){
       $data['media_url'] = $media_url;
+    }
+    if($retweet){
+      $data['text'] = "<a class=\"retweet\" target=\"blank\" href=\"$tweet_url\">&#61561;</a>" . $text;
     }
     return $data;
   }

@@ -79,8 +79,7 @@ html, body {
         background-color: #fff;
         flex: 0 1 auto;
         width: calc(100%/3);
-        margin-right: 10px;
-        overflow: hidden; }
+        margin-right: 10px; }
         .ta-slider .mask .slider .slide:last-child {
           margin-right: 0px; }
         .ta-slider .mask .slider .slide .flexbox {
@@ -103,7 +102,8 @@ html, body {
             .ta-slider .mask .slider .slide .flexbox a .user {
               display: flex;
               align-items: flex-start;
-              justify-content: space-around; }
+              justify-content: space-around;
+              padding-bottom: 10px; }
               .ta-slider .mask .slider .slide .flexbox a .user span {
                 padding-left: 10px;
                 align-self: center; }
@@ -114,6 +114,10 @@ html, body {
             .ta-slider .mask .slider .slide .flexbox .tweet a:hover {
               transition: color 0.1s ease;
               color: red; }
+          .ta-slider .mask .slider .slide .flexbox .tweet .retweet {
+            font-family: FontAwesome;
+            text-decoration: none;
+            font-size: 1.5em; }
           .ta-slider .mask .slider .slide .flexbox .media {
             width: 100%;
             text-align: center; }
@@ -141,6 +145,7 @@ html, body {
 
 @media (max-width: 800px) {
   .ta-slider .mask .slider {
+    min-height: auto;
     flex-direction: column;
     justify-content: space-around; }
     .ta-slider .mask .slider .slide {
