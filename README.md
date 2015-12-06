@@ -6,4 +6,4 @@
  - install sass `gem install sass` and run `sass --watch sass/app.scss:css/app.css`
  - run `composer install` for the php part
 
-
+See the [live demo](https://abudaan.github.io/twitter-react).
