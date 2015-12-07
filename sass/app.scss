@@ -25,19 +25,20 @@ html, body{
     background-color: #eee;
     overflow: hidden;
     position: relative;
+    //min-height: 320px;
 
-    //.slider>div{
     .slider{
       display: flex;
       //justify-content: space-around;
       padding: 20px 40px;
-      min-height: 320px;
+      width: 100%;
+      height: auto;
 
       .slide{
         background-color: #fff;
-        flex: 0 1 auto;
-        width: calc(100%/3);
+        flex: 0 0 calc(100%/3);
         margin-right: 10px;
+        height: auto;
 
         &:last-child{
           margin-right: 0px;
@@ -46,12 +47,12 @@ html, body{
         .flexbox{
           padding: 10px;
           display: flex;
-          align-items: flex-start;
-          justify-content: space-around;
+          //align-items: flex-start;
+          //justify-content: space-around;
           flex-direction: column;
 
           p{
-            padding-bottom: 10px;
+            //padding-bottom: 0px;
             //flex: 0 1 auto;
           }
 
@@ -73,7 +74,7 @@ html, body{
             .user{
               display: flex;
               align-items: flex-start;
-              justify-content: space-around;
+              justify-content: flex-start;
               padding-bottom: 10px;
 
               span{
@@ -111,13 +112,14 @@ html, body{
   %arrow{
     font-family: FontAwesome;
     position: absolute;
+    z-index: 32;
     width: 25px;
     cursor: pointer;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    //background-color: yellow;
+    background-color: #eee;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -169,20 +171,37 @@ html, body{
   100% {opacity: 1}
 }
 
-.example-enter {
+.slider-appear {
+  .slide{
+    background-color: yellow;
+  }
+}
+
+.slider-appear.slider-appear-active {
+  .slide{
+    background-color: white;
+  }
+  transition: background-color 1s ease-in;
+}
+
+.slider-enter {
+  position: static;
   opacity: 0;
 }
 
-.example-enter.example-enter-active {
-  display: inline-block;
+.slider-enter.slider-enter-active {
   opacity: 1;
-  transition: opacity 700ms ease-in;
+  transition: opacity 500ms ease-in;
 }
 
-.example-leave {
-  display: none;
+
+.slider-leave {
+  position: absolute;
+  opacity: 1;
+  top: 0px;
 }
 
-.example-leave.example-leave-active {
-  display: none;
+.slider-leave.slider-leave-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
 }
