@@ -26,6 +26,7 @@ html, body{
     overflow: hidden;
     position: relative;
 
+    //.slider>div{
     .slider{
       display: flex;
       //justify-content: space-around;
@@ -160,7 +161,28 @@ html, body{
   }
 }
 
+
+// animations
+
 @keyframes fadein {
   0% {opacity: 0}
   100% {opacity: 1}
+}
+
+.example-enter {
+  opacity: 0;
+}
+
+.example-enter.example-enter-active {
+  display: inline-block;
+  opacity: 1;
+  transition: opacity 700ms ease-in;
+}
+
+.example-leave {
+  display: none;
+}
+
+.example-leave.example-leave-active {
+  display: none;
 }

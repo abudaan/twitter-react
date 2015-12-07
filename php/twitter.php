@@ -117,7 +117,6 @@ class Tweets{
     $media_url = '0';
     $has_media = false;
     $retweet = substr($text, 0, 2) === 'RT';
-    $tweet_url = "https://twitter.com/$user_name/status/$id";
 
     if(count($tweet->entities->media) > 0){
       if($tweet->entities->media[0]->type == 'photo'){
@@ -150,7 +149,7 @@ class Tweets{
       foreach($matches as $match){
         $url = $match[1] . $match[2] . $match[3] . $match[4];
         if($url === $tco_url){
-          //$link = "<a class=\"media\" target=\"blank\" href=\"$tweet_url\"><img src=\"$url\"></img></a>";
+          // remove the link to media: we'll add it to the json object, see below
           $link = "";
         }else{
           $link = "<a class=\"url\" target=\"blank\" href=\"$url\">$url</a>";
@@ -185,12 +184,15 @@ class Tweets{
       'text' => $text
     );
 
+    // add media urls separately so we can format them in a more flexible way (currently only the first photo is added)
     if($has_media){
       $data['media_url'] = $media_url;
     }
+
     if($retweet){
-      $data['text'] = "<a class=\"retweet\" target=\"blank\" href=\"$tweet_url\">&#61561;</a>" . $text;
+      $data['retweet'] = $retweet;
     }
+
     return $data;
   }
 
