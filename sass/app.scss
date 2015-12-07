@@ -29,16 +29,17 @@ html, body{
 
     .slider{
       display: flex;
+      align-items: flex-start;
       //justify-content: space-around;
       padding: 20px 40px;
       width: 100%;
-      height: auto;
+      //height: auto;
 
       .slide{
         background-color: #fff;
         flex: 0 0 calc(100%/3);
         margin-right: 10px;
-        height: auto;
+        //height: auto;
 
         &:last-child{
           margin-right: 0px;
@@ -48,17 +49,12 @@ html, body{
           padding: 10px;
           display: flex;
           //align-items: flex-start;
-          //justify-content: space-around;
+          justify-content: flex-start;
           flex-direction: column;
 
           p{
             //padding-bottom: 0px;
-            //flex: 0 1 auto;
-          }
-
-          img{
-            //flex: 0 1 auto;
-            max-height: 150px;
+            //flex: 0 0 content;
           }
 
           a{
@@ -101,8 +97,12 @@ html, body{
             }
           }
           .media{
-            width: 100%;
+            flex: 0 1 auto;
             text-align: center;
+            img{
+              margin-top: 10px;
+              max-height: 150px;
+            }
           }
         }
       }
@@ -157,12 +157,50 @@ html, body{
           &:last-child{
             margin-bottom: 0px;
           }
+
+          .flexbox{
+            .media{
+              img{
+                width: 80%;
+                max-width: 400px;
+                height: auto;
+                max-height: none;
+              }
+            }
+          }
         }
       }
     }
   }
 }
 
+@media (max-width: 320px){
+  .ta-slider{
+    %arrow{
+      width: 20px;
+    }
+    .mask{
+      .slider{
+        // background-color: yellow;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px){
+  .ta-slider{
+    %arrow{
+      width: 30px;
+    }
+    .mask{
+      .slider{
+        // background-color: yellow;
+        padding: 10px 30px;
+      }
+    }
+  }
+}
 
 // animations
 
@@ -185,6 +223,7 @@ html, body{
 }
 
 .slider-enter {
+  align-items: flex-start;
   position: static;
   opacity: 0;
 }
@@ -197,6 +236,7 @@ html, body{
 
 .slider-leave {
   position: absolute;
+  align-items: stretch;
   opacity: 1;
   top: 0px;
 }

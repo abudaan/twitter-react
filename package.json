@@ -28,8 +28,11 @@
     "react-dom": "^0.14.2"
   },
   "scripts": {
-    "start": "ws",
-    "watch": "watchify js/app.js -t [babelify --presets [ es2015 react] --plugins [ transform-class-properties ] ] -o build/app.js --debug --verbose | ws",
+    "server": "ws",
+    "sass": "sass --watch sass/app.scss:css/app.css",
+    "guard": "bundle exec guard",
+    "watch-js": "watchify js/app.js -t [babelify --presets [ es2015 react] --plugins [ transform-class-properties ] ] -o build/app.js --debug --verbose",
+    "watch": "npm run server & npm run sass & npm run watch-js & npm run guard",
     "build": "browserify js/app.js -t [ babelify --presets [ es2015 react stage-1] --sourceMapRelative ../../js ] --debug | exorcist build/app.js.map > build/app.js"
   }
 }
