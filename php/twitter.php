@@ -128,7 +128,7 @@ class Tweets{
 
     if($retweet){
       //$user_id = $tweet->retweeted_status->user->id;
-      $text = substr($text, 2);
+      $text = $tweet->retweeted_status->text;
       $user_name = $tweet->retweeted_status->user->screen_name;
       $user_img = $tweet->retweeted_status->user->profile_image_url;
       if(count($tweet->retweeted_status->entities->media) > 0){
