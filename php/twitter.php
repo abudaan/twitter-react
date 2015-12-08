@@ -1,5 +1,12 @@
 <?php
 
+/*
+  cronjob:
+    wget -q -O- http://abumarkub.net/twitter/php/twitter.php
+    wget -q -O- http://abumarkub.net/twitter/php/twitter.php >/dev/null 2>&1
+*/
+
+
 require_once realpath(__DIR__ . '/..') . '/vendor/autoload.php';
 
 use Abraham\TwitterOAuth\TwitterOAuth;
@@ -14,6 +21,8 @@ class Tweets{
   const tweets_per_page                = 3;
   const count_tweets                   = 200; // max number of tweets that can be retrieved per request
   const twitter_user                   = 'DST_Fontys';
+  //const save_path                      = '/home/abumarku/www/twitter/data';
+  //const file_all_tweets                = '/home/abumarku/www/twitter/data/all_tweets.json'; // use this if you are using php < 5.6
   const save_path                      = '/home/abudaan/workspace/twitter-app/data';
   const file_all_tweets                = self::save_path . '/all_tweets.json';
   const last_tweet_id                  = 0;
@@ -39,8 +48,8 @@ class Tweets{
     $data = array(
       'tweets' => array()
     );
-    $new_tweets = [];
-    $old_tweets = [];
+    $new_tweets = array();
+    $old_tweets = array();
 
     if(file_exists(self::file_all_tweets)){
       $data = json_decode(file_get_contents(self::file_all_tweets), true);
@@ -76,7 +85,7 @@ class Tweets{
 
     $i = 0;
     $page = 0;
-    $tweets_on_page = [];
+    $tweets_on_page = array();
     $num_tweets = count($tweets);
 
     foreach($tweets as $tweet){
