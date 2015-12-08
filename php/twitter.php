@@ -26,10 +26,13 @@ class Tweets{
   const save_path                      = '/home/abudaan/workspace/twitter-app/data';
   const file_all_tweets                = self::save_path . '/all_tweets.json';
   const last_tweet_id                  = 0;
+  const months                         = array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
+  const days                           = array('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun');
 
 
   function __construct(){
     $this->paginate($this->get_tweets());
+    //$this->get_unix_date();
   }
 
 
@@ -122,6 +125,7 @@ class Tweets{
     //$user_id = $tweet->user->id;
     $user_name = $tweet->user->screen_name;
     $user_img = $tweet->user->profile_image_url;
+    $time = $tweet->created_at;
     $tco_url = '0';
     $media_url = '0';
     $has_media = false;
@@ -140,6 +144,7 @@ class Tweets{
       $text = $tweet->retweeted_status->text;
       $user_name = $tweet->retweeted_status->user->screen_name;
       $user_img = $tweet->retweeted_status->user->profile_image_url;
+      $time = $tweet->retweeted_status->created_at;
       if(count($tweet->retweeted_status->entities->media) > 0){
         if($tweet->retweeted_status->entities->media[0]->type == 'photo'){
           $media_url = $tweet->retweeted_status->entities->media[0]->media_url;
@@ -190,7 +195,8 @@ class Tweets{
       'id' => $id,
       'user_name' => $user_name,
       'user_img' => $user_img,
-      'text' => $text
+      'text' => $text,
+      'time' => $this->get_unix_date($time)
     );
 
     // add media urls separately so we can format them in a more flexible way (currently only the first photo is added)
@@ -205,10 +211,60 @@ class Tweets{
     return $data;
   }
 
+  function get_unix_date($date){
+    //$date = "Wed Nov 25 08:06:30 +0000 2015";
+    echo $date . '<br>';
+    $date = explode(' ', $date);
+
+    $dst = $date[4] == '+0000' ? -1 : 1;
+
+    $day = $date[2];
+    $month = $this->get_month($date[1]);
+    $year = $date[5];
+
+
+    $time = explode(':', $date[3]);
+    $hour = $this->get_number($time[0]);
+    $minute = $this->get_number($time[1]);
+    $second = $this->get_number($time[2]);
+
+    $unix = mktime($hour, $minute, $second, $month, $day, $year);
+
+    // echo "$day<br>";
+    // echo "$month<br>";
+    // echo "$year<br>";
+    // echo "$dst<br>";
+    // echo "$hour<br>";
+    // echo "$minute<br>";
+    // echo "$second<br>";
+    // echo "$unix<br>";
+    echo '---> ' . date('c', mktime($hour, $minute, $second, $month, $day, $year)) . '<br>';
+    return $unix;
+  }
+
+  function get_month($m){
+    $i = 0;
+    foreach(self::months as $month){
+      //echo $m . ' ' . $month . '<br>';
+      if($m == $month){
+        return $i;
+      }
+      $i++;
+    }
+  }
+
+  function get_number($n){
+    if(strpos($n, '0') == 0){
+      $n = str_replace('0', '', $n);
+    }
+    //echo $n . '<br>';
+    return intval($n);
+  }
 }
 
 
 // start
+
 new Tweets();
 echo 'done';
 

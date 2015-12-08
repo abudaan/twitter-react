@@ -20,6 +20,14 @@ class Slider extends React.Component{
       let user_name = `@${tweet.user_name}`;
       let user_url = `https://twitter.com/${tweet.user_name}`;
       let tweet_url = `https://twitter.com/${tweet.user_name}/status/${tweet.id}`;
+      let time = new Date(tweet.time * 1000);
+      let hour = time.getHours();
+      let minutes = time.getMinutes();
+      let seconds = time.getSeconds();
+      let day = time.getDate();
+      let month = time.getMonth() + 1;
+      let year = time.getFullYear();
+      time = day + ' ' + month + ' ' + year + ' ' + hour + ':' + minutes + ':' + seconds;
 
       function createHTML(){
         if(tweet.retweet){
@@ -33,7 +41,7 @@ class Slider extends React.Component{
         result.push(
           <div className="slide" key={tweet.id}>
             <div className="flexbox">
-              <a href={user_url} target="blank"><div className="user"><img src={tweet.user_img} /><span>{user_name}</span></div></a>
+              <a href={user_url} target="blank"><div className="user"><img src={tweet.user_img} /><span>{user_name}<br/>{time}</span></div></a>
               <p className="tweet" dangerouslySetInnerHTML={createHTML()} />
               <a className="media" href={tweet_url} target="blank"><img src={tweet.media_url} /></a>
             </div>
@@ -43,7 +51,7 @@ class Slider extends React.Component{
         result.push(
           <div className="slide" key={tweet.id}>
             <div className="flexbox">
-              <a href={user_url} target="blank"><div className="user"><img src={tweet.user_img} /><span>{user_name}</span></div></a>
+              <a href={user_url} target="blank"><div className="user"><img src={tweet.user_img} /><span>{user_name}<br/>{time}</span></div></a>
               <p className="tweet" dangerouslySetInnerHTML={createHTML()} />
             </div>
           </div>
