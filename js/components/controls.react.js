@@ -12,13 +12,6 @@ class Controls extends React.Component{
 
   render(){
 
-    if(!this.props.lastPage && !this.props.firstPage){
-      return(
-        <div>
-        </div>
-      );
-    }
-
     if(this.props.firstPage){
       return(
         <div className="arrow-right" onClick={Action.nextPage}>

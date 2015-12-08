@@ -10,11 +10,11 @@ class TweetsStore extends EventEmitter {
 
   constructor () {
     super();
-    this.firstPage = false;
+    this.init = true;
     this.lastPage = false;
-    this.currentPage = -1;
+    this.currentPage = 0;
     this.nextPage = 0;
-    this.pages = [];
+    this.pages = [{tweets: []}];
 
     AppDispatcher.register((action) => {
       this.handle(action);
@@ -37,16 +37,7 @@ class TweetsStore extends EventEmitter {
     //console.log('getTweets', this.tweets);
     return {
       tweets: this.pages[this.currentPage].tweets,
-      firstPage: this.firstPage,
-      lastPage: this.lastPage
-    };
-  }
-
-  getInitData() {
-    //console.log('getTweets', this.tweets);
-    return {
-      tweets: [],
-      firstPage: this.firstPage,
+      firstPage: this.currentPage === 0,
       lastPage: this.lastPage
     };
   }
@@ -64,13 +55,12 @@ class TweetsStore extends EventEmitter {
       };
       this.currentPage = this.nextPage;
       this.lastPage = data.lastpage;
-      this.firstPage = this.currentPage === 0;
+      this.init = false;
       this.emitChange();
     })
     .fail(() => {
-      // reset this.nextPage
-      this.nextPage = this.currentPage;
-      if(this.currentPage === -1){
+      if(this.init){
+        this.init = false;
         this.pages = [{
           tweets: [{
             id: -1,
@@ -79,8 +69,11 @@ class TweetsStore extends EventEmitter {
             text: 'no tweets'
           }]
         }];
-        this.currentPage = 0;
+        this.currentPage = this.nextPage = 0;
         this.emitChange();
+      }else{
+        // reset this.nextPage
+        this.nextPage = this.currentPage;
       }
     });
   }

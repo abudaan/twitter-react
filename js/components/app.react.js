@@ -13,7 +13,7 @@ class App extends React.Component{
 
   constructor(props){
     super(props);
-    this.state = TweetsStore.getInitData();
+    this.state = TweetsStore.getData();
     this.onChangeListener = this.onChange.bind(this);
   }
 
